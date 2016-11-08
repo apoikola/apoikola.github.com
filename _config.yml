@@ -1,18 +1,18 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
+title: Antti Poikola - Helsinki, Finland, Helsinki Institute for Information Technology, Open Knowledge Finland
+description: 'Antti is a Researcher in Helsinki, Finland. Read Antti’s book from their page.'
 url: 'http://faizanv.in/apoikola.github.com/'
-baseurl: ''
+baseurl: '/apoikola.github.com/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'ANTTI POIKOLA'
+  email:
+  twitter_username: apoikola
+  facebook_username: antti.poikola
+  github_username:  apoikola
+  linkedin_username:  poikola
 
 defaults:
   -
