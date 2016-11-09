@@ -1,0 +1,39 @@
+# Site settings
+title: Antti Poikola - Helsinki, Finland, Helsinki Institute for Information Technology, Open Knowledge Finland
+description: 'Antti is a Researcher in Helsinki, Finland. Read Antti’s book from their page.'
+url: 'http://faizanv.in/apoikola.github.com/'
+baseurl: '/apoikola.github.com/'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'ANTTI POIKOLA'
+  email:
+  twitter_username: apoikola
+  facebook_username: antti.poikola
+  github_username:  apoikola
+  linkedin_username:  poikola
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
